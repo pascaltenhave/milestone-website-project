@@ -1,0 +1,167 @@
+/************* BASE STYLES ***************/
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  }
+
+h1{
+  color: #82E993;
+  font-family: 'Roboto Slab', serif;
+  font-size: 48pt;
+  font-weight: bold;
+  padding: 50px 0px 0px 0px;
+  }
+
+h2{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24pt;
+  }
+
+h3{
+  font-family: 'Roboto Slab', serif;
+  font-size: 36pt;
+  }
+
+h4{
+  }
+
+/************* GRID ***************/
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width{
+  width:600px;
+  margin: 0 auto;
+  float:left;
+}
+
+.third-width{
+  width:400px;
+  margin: 0 auto;
+  float: left;
+}
+
+/*************HEADER***************/
+header{
+  background: url("../img/backpacks.jpg");
+  height: 799px;
+  padding: 1px 0px 0px 0px;
+  width: 1400px;
+  text-align: center;
+  }
+
+/***** PORTFOLIO *****/
+#portfolio{
+  color: #087e8b;
+  height: 1450px;
+  width:1400px;
+}
+
+#portfolio .full-width{
+  padding: 0px 0px 0px 100px;
+}
+
+#portfolio .half-width {
+  padding: 50px 00px 00px 00px;
+  float: right;
+
+}
+
+#portfolio h3{
+  text-align: center;
+}
+
+#portfolio p{
+  color:#095156;
+}
+
+/***** ABOUT *****/
+
+#about{
+  background-color: #087e8b;
+  height: 650px;
+  width: 1400px;
+  padding-top: 1px;
+
+}
+
+#about .full-width{
+  padding: 0px 0px 0px 100px;
+      }
+
+#about h3{
+  color: #ffffff;
+  text-align:center;
+}
+
+#about .half-width{
+  padding: 60px 00px 00px 0px;
+}
+
+#about p{
+  color:#ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18pt;
+  padding: 0px;
+}
+
+#about ul{
+  color:#ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16pt;
+}
+
+/***** CONTACT *****/
+
+#contact{
+  background-color: #095156;
+  color: #ffffff;
+  height: 400px;
+  width: 1400px;
+  text-align: center;
+  padding-top: 1px;
+}
+
+#contact h3{
+}
+
+#contact h4{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20pt;
+}
+
+#contact .full-width{
+  padding: 0px 0px 0px 0px;
+}
+
+#contact .third-width{
+  padding: 0px 0px 0px 0px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+    color: white;
+    mix-blend-mode: multiply;
+  }
+
+/***** COPYRIGHT *****/
+
+#copyright{
+  width: 1400px;
+}
+
+#copyright p{
+  font-size: 6px;
+}
